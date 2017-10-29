@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "c576bbab-f457-459e-80d9-815d8fab640b",
+  "alias": "ExternalLibraryWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "c576bbab-f457-459e-80d9-815d8fab640b",
+    "group": { "default": "Under Development" },
+    "title": { "default": "ExternalLibrary" },
+    "description": { "default": "ExternalLibrary description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "ExternalLibrary"
+    }
+  }]
+}

@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/externalLibrary/ExternalLibraryWebPart.js",
+      "manifest": "./src/webparts/externalLibrary/ExternalLibraryWebPart.manifest.json",
+      "outputPath": "./dist/external-library.bundle.js"
+    }
+  ],
+  "externals": {
+    "jqueryCDN": {
+         "path": "https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.js",
+         "globalName": "jquery"
+     }
+  },
+  "localizedResources": {
+    "externalLibraryStrings": "webparts/externalLibrary/loc/{locale}.js"
+  }
+}
